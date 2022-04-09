@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.firebase.samples.apps.mlkit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:6:5-66
+12-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:9:5-60
+15-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:9:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:10:5-70
+16-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:10:19-67
+17
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:22:5-79
+18-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:22:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:24:5-68
+19-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:26:22-79
+21
+22    <permission
+22-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:28:5-30:47
+23        android:name="com.google.firebase.samples.apps.mlkit.permission.C2D_MESSAGE"
+23-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:29:9-63
+24        android:protectionLevel="signature" />
+24-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:30:9-44
+25
+26    <uses-permission android:name="com.google.firebase.samples.apps.mlkit.permission.C2D_MESSAGE" />
+26-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:5-79
+26-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:22-76
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29
+30    <application
+30-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:12:5-37:19
+31        android:allowBackup="true"
+31-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:13:9-35
+32        android:configChanges="orientation"
+32-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:17:9-46
+33        android:debuggable="true"
+34        android:icon="@drawable/owl1"
+34-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:14:9-38
+35        android:label="@string/app_name"
+35-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:15:9-41
+36        android:screenOrientation="landscape"
+36-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:16:9-46
+37        android:testOnly="true"
+38        android:theme="@style/MaterialTheme" >
+38-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:18:9-45
+39        <activity
+39-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:19:9-29:20
+40            android:name="com.google.firebase.samples.apps.mlkit.ChooserActivity"
+40-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:20:13-82
+41            android:configChanges="orientation"
+41-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:23:13-50
+42            android:exported="true"
+42-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:21:13-36
+43            android:label="@string/app_name"
+43-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:24:13-45
+44            android:screenOrientation="landscape" >
+44-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:22:13-50
+45            <intent-filter>
+45-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:25:13-28:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:26:17-69
+46-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:26:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:27:17-77
+48-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:27:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:31:9-32:20
+52            android:name="com.google.firebase.samples.apps.mlkit.LivePreviewActivity"
+52-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:31:19-54
+53            android:exported="true" >
+53-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:31:55-78
+54        </activity>
+55        <activity
+55-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:34:9-36:20
+56            android:name="com.google.firebase.samples.apps.mlkit.StillImageActivity"
+56-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:34:19-53
+57            android:exported="true" >
+57-->C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:35:13-36
+58        </activity>
+59
+60        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+60-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:35:9-39:19
+60-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:35:18-89
+61            <meta-data
+61-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:36:13-38:85
+62                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+62-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:37:17-96
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:38:17-82
+64        </service>
+65
+66        <receiver
+66-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:41:9-50:20
+67            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+67-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:42:13-78
+68            android:exported="true"
+68-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:43:13-36
+69            android:permission="com.google.android.c2dm.permission.SEND" >
+69-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:44:13-73
+70            <intent-filter>
+70-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:45:13-49:29
+71                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+71-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:46:17-81
+71-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:46:25-78
+72
+73                <category android:name="com.google.firebase.samples.apps.mlkit" />
+73-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:17-61
+73-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:27-58
+74            </intent-filter>
+75        </receiver>
+76        <!--
+77             FirebaseInstanceIdService performs security checks at runtime,
+78             no need for explicit permissions despite exported="true"
+79        -->
+80        <service
+80-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:56:9-62:19
+81            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+81-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:57:13-77
+82            android:exported="true" >
+82-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:58:13-36
+83            <intent-filter android:priority="-500" >
+83-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:59:13-61:29
+83-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:59:28-51
+84                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+84-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:60:17-80
+84-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:60:25-77
+85            </intent-filter>
+86        </service>
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:8:9-12:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:9:13-77
+95            android:authorities="com.google.firebase.samples.apps.mlkit.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:10:13-72
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:11:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:12:13-36
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+102    </application>
+103
+104</manifest>

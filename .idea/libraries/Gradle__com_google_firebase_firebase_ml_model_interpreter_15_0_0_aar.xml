@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-model-interpreter:15.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-ml-model-interpreter-15.0.0.aar/18b0a88f36589fe1e308b2ddb3d3356e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-ml-model-interpreter-15.0.0.aar/18b0a88f36589fe1e308b2ddb3d3356e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-ml-model-interpreter-15.0.0.aar/18b0a88f36589fe1e308b2ddb3d3356e/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/868d29880d7c6a0f61b1d7c200461ea4/transformed/firebase-ml-model-interpreter-15.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/868d29880d7c6a0f61b1d7c200461ea4/transformed/firebase-ml-model-interpreter-15.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/868d29880d7c6a0f61b1d7c200461ea4/transformed/firebase-ml-model-interpreter-15.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

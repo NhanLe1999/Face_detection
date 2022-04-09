@@ -1,0 +1,348 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9e6693044eb5c6eac42c7cb0f6d2349c\transformed\design-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\fc1b2e6bbb91e4772ea566522f21f89f\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9cc8453d81b437774e7a8ce6de70c063\transformed\constraint-layout-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-ml-vision:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\d46f99d79a99a531bbcf4c22d7075374\transformed\firebase-ml-vision-15.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\8cc4d72df8f4810f666be83e157c5517\transformed\firebase-ml-vision-image-label-model-15.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\868d29880d7c6a0f61b1d7c200461ea4\transformed\firebase-ml-model-interpreter-15.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\4985ca9508d5b6a1a80ee4ec21109c39\transformed\play-services-vision-15.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\2396a3aee8d1a6a884c6abeb9d4e1186\transformed\play-services-vision-image-label-15.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\fa449633fc74b91376e681708cb84015\transformed\play-services-vision-common-15.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\d1f8b01252b6ee13be2f37b774cd4095\transformed\firebase-ml-common-15.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\92426335e947b53e19894ce78703c067\transformed\play-services-clearcut-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\f792c17dc0643c2d86b86b52a573f2c9\transformed\play-services-flags-15.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3f9b5db4c7e384ff61be36a8c1a556b1\transformed\play-services-phenotype-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\7f1544f3190f9920299912f07bb1e218\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\454cc2be4fa52b5c3ad0f2870c20c84b\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\645c26feecb4eb7992a90dcf5ade7ce1\transformed\play-services-stats-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\01259bdf513c58f98bcc5a9f1f568a24\transformed\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\ae7c4de8778e1557c49fd37d3a0a9a6e\transformed\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\2eb5eaa1d6b2602bac356d06a4ce8c17\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\e8800d90591fd4abb98cf89debcfe841\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\cb299b4efc2048e9fd570139eb2c9c49\transformed\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\46c9acbdffc6f57f9bbbe60854740636\transformed\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\caebcaa11797a7447bdb3882770f53dd\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\4c03014b370281f0cc9224a64dcef8d1\transformed\transition-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3407a237de24f805105a0bc9f127bb38\transformed\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\5de6695655875febeffc1b32e179c967\transformed\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:0.1.7] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\a235c958d02289c13517838b58f6e25d\transformed\tensorflow-lite-0.1.7\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\59c4de786c3ed9aa084804c826d146e2\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3f6ce9e1dd9ca3d2d5cc54838e46b115\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\183a119e1cb3297d36fef4b976584078\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\b4952fef3181c409e169fd894c1ef8d0\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:7:22-78
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:9:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:10:19-67
+application
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:12:5-37:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9cc8453d81b437774e7a8ce6de70c063\transformed\constraint-layout-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9cc8453d81b437774e7a8ce6de70c063\transformed\constraint-layout-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\8cc4d72df8f4810f666be83e157c5517\transformed\firebase-ml-vision-image-label-model-15.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\8cc4d72df8f4810f666be83e157c5517\transformed\firebase-ml-vision-image-label-model-15.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\4985ca9508d5b6a1a80ee4ec21109c39\transformed\play-services-vision-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\4985ca9508d5b6a1a80ee4ec21109c39\transformed\play-services-vision-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\2396a3aee8d1a6a884c6abeb9d4e1186\transformed\play-services-vision-image-label-15.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\2396a3aee8d1a6a884c6abeb9d4e1186\transformed\play-services-vision-image-label-15.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\fa449633fc74b91376e681708cb84015\transformed\play-services-vision-common-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\fa449633fc74b91376e681708cb84015\transformed\play-services-vision-common-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\92426335e947b53e19894ce78703c067\transformed\play-services-clearcut-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\92426335e947b53e19894ce78703c067\transformed\play-services-clearcut-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3f9b5db4c7e384ff61be36a8c1a556b1\transformed\play-services-phenotype-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3f9b5db4c7e384ff61be36a8c1a556b1\transformed\play-services-phenotype-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\7f1544f3190f9920299912f07bb1e218\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\7f1544f3190f9920299912f07bb1e218\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\454cc2be4fa52b5c3ad0f2870c20c84b\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\454cc2be4fa52b5c3ad0f2870c20c84b\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\645c26feecb4eb7992a90dcf5ade7ce1\transformed\play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\645c26feecb4eb7992a90dcf5ade7ce1\transformed\play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [org.tensorflow:tensorflow-lite:0.1.7] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\a235c958d02289c13517838b58f6e25d\transformed\tensorflow-lite-0.1.7\AndroidManifest.xml:4:5-5:19
+MERGED from [org.tensorflow:tensorflow-lite:0.1.7] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\a235c958d02289c13517838b58f6e25d\transformed\tensorflow-lite-0.1.7\AndroidManifest.xml:4:5-5:19
+	android:screenOrientation
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:16:9-46
+	android:label
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:15:9-41
+	android:configChanges
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:17:9-46
+	android:icon
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:14:9-38
+	android:allowBackup
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:18:9-45
+activity#com.google.firebase.samples.apps.mlkit.ChooserActivity
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:19:9-29:20
+	android:screenOrientation
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:22:13-50
+	android:label
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:24:13-45
+	android:exported
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:21:13-36
+	android:configChanges
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:23:13-50
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:20:13-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.google.firebase.samples.apps.mlkit.LivePreviewActivity
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:31:9-32:20
+	android:exported
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:31:55-78
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:31:19-54
+activity#com.google.firebase.samples.apps.mlkit.StillImageActivity
+ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:34:9-36:20
+	android:exported
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:34:19-53
+uses-sdk
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9e6693044eb5c6eac42c7cb0f6d2349c\transformed\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9e6693044eb5c6eac42c7cb0f6d2349c\transformed\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\fc1b2e6bbb91e4772ea566522f21f89f\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\fc1b2e6bbb91e4772ea566522f21f89f\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9cc8453d81b437774e7a8ce6de70c063\transformed\constraint-layout-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9cc8453d81b437774e7a8ce6de70c063\transformed\constraint-layout-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-ml-vision:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\d46f99d79a99a531bbcf4c22d7075374\transformed\firebase-ml-vision-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\d46f99d79a99a531bbcf4c22d7075374\transformed\firebase-ml-vision-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\8cc4d72df8f4810f666be83e157c5517\transformed\firebase-ml-vision-image-label-model-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\8cc4d72df8f4810f666be83e157c5517\transformed\firebase-ml-vision-image-label-model-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\868d29880d7c6a0f61b1d7c200461ea4\transformed\firebase-ml-model-interpreter-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\868d29880d7c6a0f61b1d7c200461ea4\transformed\firebase-ml-model-interpreter-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\4985ca9508d5b6a1a80ee4ec21109c39\transformed\play-services-vision-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\4985ca9508d5b6a1a80ee4ec21109c39\transformed\play-services-vision-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\2396a3aee8d1a6a884c6abeb9d4e1186\transformed\play-services-vision-image-label-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\2396a3aee8d1a6a884c6abeb9d4e1186\transformed\play-services-vision-image-label-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\fa449633fc74b91376e681708cb84015\transformed\play-services-vision-common-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\fa449633fc74b91376e681708cb84015\transformed\play-services-vision-common-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\d1f8b01252b6ee13be2f37b774cd4095\transformed\firebase-ml-common-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\d1f8b01252b6ee13be2f37b774cd4095\transformed\firebase-ml-common-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\92426335e947b53e19894ce78703c067\transformed\play-services-clearcut-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\92426335e947b53e19894ce78703c067\transformed\play-services-clearcut-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\f792c17dc0643c2d86b86b52a573f2c9\transformed\play-services-flags-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\f792c17dc0643c2d86b86b52a573f2c9\transformed\play-services-flags-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3f9b5db4c7e384ff61be36a8c1a556b1\transformed\play-services-phenotype-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3f9b5db4c7e384ff61be36a8c1a556b1\transformed\play-services-phenotype-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\7f1544f3190f9920299912f07bb1e218\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\7f1544f3190f9920299912f07bb1e218\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\454cc2be4fa52b5c3ad0f2870c20c84b\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\454cc2be4fa52b5c3ad0f2870c20c84b\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\645c26feecb4eb7992a90dcf5ade7ce1\transformed\play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\645c26feecb4eb7992a90dcf5ade7ce1\transformed\play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\01259bdf513c58f98bcc5a9f1f568a24\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\01259bdf513c58f98bcc5a9f1f568a24\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\ae7c4de8778e1557c49fd37d3a0a9a6e\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\ae7c4de8778e1557c49fd37d3a0a9a6e\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\2eb5eaa1d6b2602bac356d06a4ce8c17\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\2eb5eaa1d6b2602bac356d06a4ce8c17\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\e8800d90591fd4abb98cf89debcfe841\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\e8800d90591fd4abb98cf89debcfe841\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\cb299b4efc2048e9fd570139eb2c9c49\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\cb299b4efc2048e9fd570139eb2c9c49\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\46c9acbdffc6f57f9bbbe60854740636\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\46c9acbdffc6f57f9bbbe60854740636\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\caebcaa11797a7447bdb3882770f53dd\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\caebcaa11797a7447bdb3882770f53dd\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\4c03014b370281f0cc9224a64dcef8d1\transformed\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\4c03014b370281f0cc9224a64dcef8d1\transformed\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3407a237de24f805105a0bc9f127bb38\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3407a237de24f805105a0bc9f127bb38\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\5de6695655875febeffc1b32e179c967\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\5de6695655875febeffc1b32e179c967\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\59c4de786c3ed9aa084804c826d146e2\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\59c4de786c3ed9aa084804c826d146e2\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3f6ce9e1dd9ca3d2d5cc54838e46b115\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\3f6ce9e1dd9ca3d2d5cc54838e46b115\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\183a119e1cb3297d36fef4b976584078\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\183a119e1cb3297d36fef4b976584078\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\b4952fef3181c409e169fd894c1ef8d0\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\b4952fef3181c409e169fd894c1ef8d0\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:29:9-63
+permission#com.google.firebase.samples.apps.mlkit.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:22-76
+uses-permission#com.google.firebase.samples.apps.mlkit.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:35:18-89
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.google.firebase.samples.apps.mlkit
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:27-58
+category#com.google.firebase.samples.apps.mlkit
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\631039e24a3e8f34a9e06c37318828ea\transformed\firebase-iid-15.1.0\AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\39682b535c554fb1da8daf75cd770d7b\transformed\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\9d7567300245e268640c377db99c16b3\transformed\firebase-common-15.0.1\AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Le Van Nhan\.gradle\caches\transforms-3\c3a991952f663941e9cd67a8b8ee9741\transformed\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12 reason: org.tensorflow.lite has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Le Van Nhan\Desktop\MLKit-Firebase-Android-master\app\src\main\AndroidManifest.xml:2:1-39:12 reason: org.tensorflow.lite requested WRITE_EXTERNAL_STORAGE

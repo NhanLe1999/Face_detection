@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-vision-image-label-model:15.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-image-label-model-15.0.0.aar/4c2d14275c833ec70fad89afff3cecf0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-image-label-model-15.0.0.aar/4c2d14275c833ec70fad89afff3cecf0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-image-label-model-15.0.0.aar/4c2d14275c833ec70fad89afff3cecf0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8cc4d72df8f4810f666be83e157c5517/transformed/firebase-ml-vision-image-label-model-15.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8cc4d72df8f4810f666be83e157c5517/transformed/firebase-ml-vision-image-label-model-15.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8cc4d72df8f4810f666be83e157c5517/transformed/firebase-ml-vision-image-label-model-15.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

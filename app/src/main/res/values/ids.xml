@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name ="button_ans" type="id"/>
+    <item name ="text_ans" type="id"/>
+    <item name ="img_ans" type="id"/>
+    <item name ="idblackVM" type="id"/>
+    <item name ="idblackK" type="id"/>
+    <item name ="idblackDc" type="id"/>
+</resources>

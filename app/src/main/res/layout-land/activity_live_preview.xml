@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fireTopLayout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:keepScreenOn="true">
+
+
+    <com.google.firebase.samples.apps.mlkit.CameraSourcePreview
+        android:id="@+id/firePreview"
+        android:layout_width="522dp"
+        android:layout_height="293dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="74dp">
+
+        <com.google.firebase.samples.apps.mlkit.GraphicOverlay
+            android:id="@+id/fireFaceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.google.firebase.samples.apps.mlkit.CameraSourcePreview>
+
+    <ImageView
+        android:id="@+id/idblackVM"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="550dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:src="@drawable/blackvm" />
+
+    <ImageView
+        android:id="@+id/idblackK"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="650dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:src="@drawable/blackk" />
+
+    <ImageView
+        android:id="@+id/idblackDc"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="450dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:src="@drawable/blackdc" />
+
+    <FrameLayout
+        android:id="@+id/control"
+        android:layout_width="351dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="432dp"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/facingswitch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom|end"
+            android:background="@layout/toggle_style"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+
+
+        <ImageView
+            android:id="@+id/button_ans"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:adjustViewBounds="false"
+            android:gravity="center"
+            android:scaleType="fitStart"
+            android:src="@drawable/button"
+            />
+
+        <ImageView
+            android:id="@+id/img_ans"
+            android:layout_width="270dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="200dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:adjustViewBounds="false"
+            android:scaleType="fitStart"
+            android:src="@drawable/tao"
+            />
+
+        <TextView
+            android:id="@+id/text_ans"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="10dp"
+            android:text='Nhannenenen'
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="100dp"
+            android:background="@null"
+            android:cropToPadding="false"
+            android:gravity="center"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_baseline_mic_24" />
+
+    </FrameLayout>
+
+</RelativeLayout>

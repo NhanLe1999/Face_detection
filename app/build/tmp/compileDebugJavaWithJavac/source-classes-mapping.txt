@@ -1,0 +1,84 @@
+com/google/firebase/samples/apps/mlkit/cloudimagelabeling/CloudImageLabelingProcessor.java
+ com.google.firebase.samples.apps.mlkit.cloudimagelabeling.CloudImageLabelingProcessor
+com/google/firebase/samples/apps/mlkit/VisionImageProcessor.java
+ com.google.firebase.samples.apps.mlkit.VisionImageProcessor
+com/google/firebase/samples/apps/mlkit/BuildConfig.java
+ com.google.firebase.samples.apps.mlkit.BuildConfig
+com/google/firebase/samples/apps/mlkit/VisionProcessorBase.java
+ com.google.firebase.samples.apps.mlkit.VisionProcessorBase
+ com.google.firebase.samples.apps.mlkit.VisionProcessorBase$1
+ com.google.firebase.samples.apps.mlkit.VisionProcessorBase$2
+com/google/firebase/samples/apps/mlkit/cloudlandmarkrecognition/CloudLandmarkGraphic.java
+ com.google.firebase.samples.apps.mlkit.cloudlandmarkrecognition.CloudLandmarkGraphic
+com/google/firebase/samples/apps/mlkit/CameraSource.java
+ com.google.firebase.samples.apps.mlkit.CameraSource
+ com.google.firebase.samples.apps.mlkit.CameraSource$1
+ com.google.firebase.samples.apps.mlkit.CameraSource$CameraPreviewCallback
+ com.google.firebase.samples.apps.mlkit.CameraSource$FrameProcessingRunnable
+ com.google.firebase.samples.apps.mlkit.CameraSource$SizePair
+com/google/firebase/samples/apps/mlkit/barcodescanning/BarcodeGraphic.java
+ com.google.firebase.samples.apps.mlkit.barcodescanning.BarcodeGraphic
+com/google/firebase/samples/apps/mlkit/cloudtextrecognition/CloudTextGraphic.java
+ com.google.firebase.samples.apps.mlkit.cloudtextrecognition.CloudTextGraphic
+com/google/firebase/samples/apps/mlkit/cloudimagelabeling/CloudLabelGraphic.java
+ com.google.firebase.samples.apps.mlkit.cloudimagelabeling.CloudLabelGraphic
+com/google/firebase/samples/apps/mlkit/imagelabeling/LabelGraphic.java
+ com.google.firebase.samples.apps.mlkit.imagelabeling.LabelGraphic
+com/google/firebase/samples/apps/mlkit/facedetection/FaceDetectionProcessor.java
+ com.google.firebase.samples.apps.mlkit.facedetection.FaceDetectionProcessor
+com/google/firebase/samples/apps/mlkit/cloudtextrecognition/CloudTextRecognitionProcessor.java
+ com.google.firebase.samples.apps.mlkit.cloudtextrecognition.CloudTextRecognitionProcessor
+com/google/firebase/samples/apps/mlkit/GraphicOverlay.java
+ com.google.firebase.samples.apps.mlkit.GraphicOverlay
+ com.google.firebase.samples.apps.mlkit.GraphicOverlay$Graphic
+com/google/firebase/samples/apps/mlkit/cloudtextrecognition/CloudDocumentTextRecognitionProcessor.java
+ com.google.firebase.samples.apps.mlkit.cloudtextrecognition.CloudDocumentTextRecognitionProcessor
+com/google/firebase/samples/apps/mlkit/barcodescanning/BarcodeScanningProcessor.java
+ com.google.firebase.samples.apps.mlkit.barcodescanning.BarcodeScanningProcessor
+com/google/firebase/samples/apps/mlkit/FrameMetadata.java
+ com.google.firebase.samples.apps.mlkit.FrameMetadata
+ com.google.firebase.samples.apps.mlkit.FrameMetadata$1
+ com.google.firebase.samples.apps.mlkit.FrameMetadata$Builder
+com/google/firebase/samples/apps/mlkit/textrecognition/TextGraphic.java
+ com.google.firebase.samples.apps.mlkit.textrecognition.TextGraphic
+com/google/firebase/samples/apps/mlkit/custommodel/CustomImageClassifierProcessor.java
+ com.google.firebase.samples.apps.mlkit.custommodel.CustomImageClassifierProcessor
+ com.google.firebase.samples.apps.mlkit.custommodel.CustomImageClassifierProcessor$1
+com/google/firebase/samples/apps/mlkit/cloudlandmarkrecognition/CloudLandmarkRecognitionProcessor.java
+ com.google.firebase.samples.apps.mlkit.cloudlandmarkrecognition.CloudLandmarkRecognitionProcessor
+com/google/firebase/samples/apps/mlkit/custommodel/LabelGraphic.java
+ com.google.firebase.samples.apps.mlkit.custommodel.LabelGraphic
+com/google/firebase/samples/apps/mlkit/textrecognition/TextRecognitionProcessor.java
+ com.google.firebase.samples.apps.mlkit.textrecognition.TextRecognitionProcessor
+com/google/firebase/samples/apps/mlkit/custommodel/CustomImageClassifier.java
+ com.google.firebase.samples.apps.mlkit.custommodel.CustomImageClassifier
+ com.google.firebase.samples.apps.mlkit.custommodel.CustomImageClassifier$1
+ com.google.firebase.samples.apps.mlkit.custommodel.CustomImageClassifier$2
+com/google/firebase/samples/apps/mlkit/imagelabeling/ImageLabelingProcessor.java
+ com.google.firebase.samples.apps.mlkit.imagelabeling.ImageLabelingProcessor
+com/google/firebase/samples/apps/mlkit/CameraSourcePreview.java
+ com.google.firebase.samples.apps.mlkit.CameraSourcePreview
+ com.google.firebase.samples.apps.mlkit.CameraSourcePreview$1
+ com.google.firebase.samples.apps.mlkit.CameraSourcePreview$SurfaceCallback
+com/google/firebase/samples/apps/mlkit/StillImageActivity.java
+ com.google.firebase.samples.apps.mlkit.StillImageActivity
+ com.google.firebase.samples.apps.mlkit.StillImageActivity$1
+ com.google.firebase.samples.apps.mlkit.StillImageActivity$1$1
+ com.google.firebase.samples.apps.mlkit.StillImageActivity$2
+ com.google.firebase.samples.apps.mlkit.StillImageActivity$3
+com/google/firebase/samples/apps/mlkit/facedetection/FaceGraphic.java
+ com.google.firebase.samples.apps.mlkit.facedetection.FaceGraphic
+com/google/firebase/samples/apps/mlkit/LivePreviewActivity.java
+ com.google.firebase.samples.apps.mlkit.LivePreviewActivity
+ com.google.firebase.samples.apps.mlkit.LivePreviewActivity$1
+ com.google.firebase.samples.apps.mlkit.LivePreviewActivity$2
+ com.google.firebase.samples.apps.mlkit.LivePreviewActivity$3
+ com.google.firebase.samples.apps.mlkit.LivePreviewActivity$4
+ com.google.firebase.samples.apps.mlkit.LivePreviewActivity$5
+ com.google.firebase.samples.apps.mlkit.LivePreviewActivity$6
+ com.google.firebase.samples.apps.mlkit.LivePreviewActivity$7
+com/google/firebase/samples/apps/mlkit/ChooserActivity.java
+ com.google.firebase.samples.apps.mlkit.ChooserActivity
+ com.google.firebase.samples.apps.mlkit.ChooserActivity$1
+ com.google.firebase.samples.apps.mlkit.ChooserActivity$1$1
+ com.google.firebase.samples.apps.mlkit.ChooserActivity$MyArrayAdapter

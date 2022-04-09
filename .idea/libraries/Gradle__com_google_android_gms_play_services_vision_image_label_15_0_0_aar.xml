@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-vision-image-label:15.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-15.0.0.aar/98e96a709f00ad225b32f71c3f127dae/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-15.0.0.aar/98e96a709f00ad225b32f71c3f127dae/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-15.0.0.aar/98e96a709f00ad225b32f71c3f127dae/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2396a3aee8d1a6a884c6abeb9d4e1186/transformed/play-services-vision-image-label-15.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2396a3aee8d1a6a884c6abeb9d4e1186/transformed/play-services-vision-image-label-15.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2396a3aee8d1a6a884c6abeb9d4e1186/transformed/play-services-vision-image-label-15.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

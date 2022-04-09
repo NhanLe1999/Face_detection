@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-vision-common:15.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/17c9d5c989c94aff7c6a74cde3a3f261/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/17c9d5c989c94aff7c6a74cde3a3f261/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/17c9d5c989c94aff7c6a74cde3a3f261/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa449633fc74b91376e681708cb84015/transformed/play-services-vision-common-15.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa449633fc74b91376e681708cb84015/transformed/play-services-vision-common-15.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fa449633fc74b91376e681708cb84015/transformed/play-services-vision-common-15.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
